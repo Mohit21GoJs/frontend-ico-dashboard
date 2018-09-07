@@ -7,6 +7,7 @@ import AuthTopbar from '../../auth/AuthTopbar';
 import SignIn from '../../auth/SignIn';
 import SignUp from '../../auth/SignUp';
 import ResetPassword from '../../auth/ResetPassword';
+import logoImg from '../../../assets/images/predya_logo_2.png';
 
 import s from './styles.scss';
 
@@ -16,7 +17,7 @@ class AuthWrapper extends Component {
       <div className={s.auth}>
         <AuthTopbar/>
         <div className={s.logo}>
-          {'>_ secret_tech'}
+          <img src={logoImg}/>
         </div>
         <Switch>
           <Route exact path="/auth/sign-in" component={SignIn}/>
