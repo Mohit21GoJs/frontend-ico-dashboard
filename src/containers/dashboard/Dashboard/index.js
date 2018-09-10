@@ -31,7 +31,7 @@ class Dashboard extends Component {
         <div className={s.col}>
           <div className={s.widget}><BalanceInfo/></div>
           <div className={s.widget}><IcoStatus/></div>
-          <div className={s.widget}><Creds/></div>
+          {/* <div className={s.widget}><Creds/></div> */}
         </div>
       </div>
     );

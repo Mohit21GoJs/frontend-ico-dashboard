@@ -1,10 +1,10 @@
 {
   "companyName": "secret_tech",
-  "tokenName": "SPACE",
-  "tokenSymbol": "SPC",
+  "tokenName": "PREDYA",
+  "tokenSymbol": "PDA",
   "etherscanUrl": "https://ropsten.etherscan.io",
   "landingPageDomain": "https://icodashboard.space",
-  "domain": "https://demo.icodashboard.space",
+  "domain": "https://predya.com/en/",
 
   "minEthContribution": "0.1",
   "referralMinEthContribution": "10",
@@ -12,9 +12,9 @@
   "supportEmail": "support@secrettech.io",
   "referralEmail": "partners@secrettech.io",
 
-  "agreementDoc": "https://secretech.io/storage/agreement.pdf",
-  "whitepaperDoc": "https://secretech.io/storage/whitepaper.pdf",
-  "yellowpaperDoc": "https://secretech.io/storage/yellowpaper.pdf",
+  "agreementDoc": "#",
+  "whitepaperDoc": "#",
+  "yellowpaperDoc": "#",
 
   "telegramLink": "tg.com",
   "facebookLink": "fb.com",
@@ -23,5 +23,5 @@
   "linkedinLink": "in.com",
   "bitcointalkLink": "bt.com",
 
-  "appTitle": "secret_tech demo ICO"
+  "appTitle": "Predya STO"
 }

@@ -4,6 +4,7 @@ import { translate } from 'react-i18next';
 import windowDimensions from 'react-window-dimensions';
 import { NavLink } from 'react-router-dom';
 import { Icon, Popover, Button, Position } from '@blueprintjs/core';
+import logo from '../../../assets/images/predya_logo_2.png';
 
 import { changeTheme } from '../../../redux/modules/app/theme';
 
@@ -55,7 +56,7 @@ const Topbar = (props) => {
   return (
     <nav className="pt-navbar">
       <div className="pt-navbar-group pt-align-left">
-        <div className="pt-navbar-heading">{t('topbar.brand')}</div>
+        <div className="pt-navbar-heading"><img src={logo} height={40}/></div>
         {renderNavItems()}
       </div>
       <div className="pt-navbar-group pt-align-right">
